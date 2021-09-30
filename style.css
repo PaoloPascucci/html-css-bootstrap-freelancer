@@ -42,6 +42,11 @@
     width: 200px;
 }
 
+.img_css2 {
+    height: 200px;
+    width: 300px;
+}
+
 hr {
     border: 2px solid white;
     width: 30%;
@@ -49,9 +54,17 @@ hr {
     border-radius: 3%/50%;
 }
 
+.hr_black {
+    border: 2px solid black;
+}
+
 .fas {
     color: white;
     font-size: 25px;
+}
+
+.fas_black {
+    color: black;
 }
 
 .font {
