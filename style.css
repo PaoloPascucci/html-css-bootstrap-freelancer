@@ -36,3 +36,28 @@
     background-color: blueviolet;
     height: 200px;
 }
+
+.img_css {
+    height: 200px;
+    width: 200px;
+}
+
+hr {
+    border: 2px solid white;
+    width: 30%;
+    opacity: 1;
+    border-radius: 3%/50%;
+}
+
+.fas {
+    color: white;
+    font-size: 25px;
+}
+
+.font {
+    font-size: 30px;
+}
+
+.font2 {
+    font-size: 40px
+}
