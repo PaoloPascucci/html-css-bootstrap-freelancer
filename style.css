@@ -85,3 +85,15 @@ hr {
     color: white;
     background-color: #1abc9c;
 }
+
+.text_green {
+    color: #1abc9c;
+}
+
+.fab {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0px 5px;
+    color: white;
+}
