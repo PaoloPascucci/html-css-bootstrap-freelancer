@@ -15,152 +15,175 @@
 </head>
 
 <body Class="">
-    <header class="site_header">
-        <div class="container-fluid night">
-            <div class="row">
-                <div class="col d-flex justify-content-center text-white ">
-                    <h1 class="font">START BOOTSTRAP</h1>
-                </div>
-                <div class="col d-flex justify-content-center align-items-end">
-                    <ul class="list-unstyled">
-                        <li class="list-inline-item">
-                            <a class="text-white text-decoration-none" href="#">PORTFOLIO</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-white text-decoration-none" href="#">ABOUT</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-white text-decoration-none" href="#">CONTACT</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header class="site_header bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark container">
+            <a class="navbar-brand" href="#"> <strong class="text-uppercase">Start Bootstrap</strong></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toogle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="toggle navigation">
+                <i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="mainNav">
+    
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Home <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
 
-    </div>
+                </ul>
+
+            </div>
+    </nav>
     </header>
     <!-- /.site_header -->
     <main class="site_main">
-        <div class="container-fluid green">
-            <div class="col d-flex justify-content-center align-items-center flex-column">
-            
-                <img class="img_css " src="./avatar.svg" alt="tiposorridente">
-                <h2 class="text-white font2">START BOOTSTRAP</h2>
-                <div class="col-2 d-flex justify-content-evenly flex-row">
-                    <hr>
-                    <i class="fas fa-star"></i>
-                    <hr>
-                </div>
-                <p class="text-white">GRAFHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>
+        <div class="jumbo text-center py-5 text-white green">
+            <div class="jumbo_avatar">
+                <img height="240" src="./avatar.svg" alt="tiposorridente">
             </div>
+            <div class="jumbo_text">
+                <h1 class=" my-4 display-2 text-uppercase fw-bold">Start bootstrap</h1>
 
-        </div>
-        <div class="container-fluid white">
-                    <div class="row d-flex justify-content-center align-items-center flex-column">
-                    
-                        <h2 class="d-flex  align-items-center justify-content-center font2">PORTFOLIO</h2>
-                        <div class="col-2 d-flex justify-content-evenly flex-row">
-                            <hr class="hr_black">
-                            <i class="fas fa-star fas_black"></i>
-                            <hr class="hr_black">
-                        </div>
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="m-3 rounded-3 img_css2 " src="./cabin.png" alt="casalegno">
-                            <img class="m-3 rounded-3 img_css2 " src="./cake.png" alt="fettatorta">
-                            <img class="m-3 rounded-3 img_css2 " src="./circus.png" alt="circo">
-                        </div>
-                        <div class="col d-flex justify-content-center align-items-center">
-                            <img class="m-3 rounded-3 img_css2 " src="./game.png" alt="supernintendo">
-                            <img class="m-3 rounded-3 img_css2 " src="./safe.png" alt="cassaforte">
-                            <img class="m-3 rounded-3 img_css2 " src="./submarine.png" alt="beatles">
-                        </div>
-                    </div>
-
-        </div>
-
-        <div class="container-fluid green">
-            <div class="col d-flex justify-content-center align-items-center flex-column">
-                <h2 class="d-flex  align-items-center justify-content-center text-white">ABOUT</h2>
-                <div class="col-2 d-flex justify-content-evenly align-items-center flex-row">
-                    <hr>
-                    <i class="fas fa-star"></i>
-                    <hr>
+                <div class="row d-flex justify-content-center align-content-center flex-row">
+                    <hr class="hr_white">
+                    <i class="fas fa-star fa-lg fa-fw mx-2"></i>
+                    <hr class="hr_white">
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-3 col_3 text-white">
-                        <p>
-                            Frelamcer is a free bootstrap theme created by Start Bootstrap. The downloading includes the complete source
-                            files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
-                        </p>
-                    </div>
-                    <div class="col-3 col_3 text-white">
-                        <p>
-                            Whether you're a student looking to shiwcase your work, a professional looking to attract cliects, or a
-                            graphic artist loooking to share your projects, this template is the perfect staring point!
-                        </p>
-                    </div>
-                    <div class="row justify-content-center align-items-center">
-                        <a href="#" class="btn btn_ text-white"><i class="fas fa-download"></i> Download</a>
-                    </div>
-
+                <div class="expertise mt-4 text-uppercase fs-4">
+                    GRAFHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                 </div>
-
-            </div>
-        </div>
-
-        <div class="container-fluid white">
-                    <div class="row justify-content-evenly  align-items-center p-5">
-                        <h2 class="d-flex  align-items-center justify-content-center text-dark">CONTACT US</h2>
-                        <div class="col-2 d-flex justify-content-evenly flex-row">
+                </div>
+                </div>
+                <section class="portfolio text-center">
+                    <div class="heading mb-4">
+                        <h2 class="mt-5 text-uppercase">Portfolio</h2>
+                        <div class="row d-flex justify-content-center align-content-center flex-row">
                             <hr class="hr_black">
-                            <i class="fas fa-star fas_black"></i>
+                            <i class="fas fa-star fa-lg fa-fw mx-2 fas_black"></i>
                             <hr class="hr_black">
                         </div>
-                        <div class="card border-0 border-bottom">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">Name</li>
-                                <li class="list-group-item">Email Address</li>
-                                <li class="list-group-item">Phone Number</li>
-                                <li class="list-group-item">Message</li>
-                            </ul>
-                        </div>
-                        <a href="#" class="btn btn_ text-white">Send</a>
                     </div>
+                    <div class="container">
+                        <div class="row g-3">
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./cabin.png" alt="casalegno">
+                                </div>
+                            </div>
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./cake.png" alt="fettatorta">
+                                </div>
+                            </div>
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./circus.png" alt="circo">
+                                </div>
+                            </div>
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./game.png" alt="supernintendo">
+                                </div>
+                            </div>
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./safe.png" alt="cassaforte">
+                                </div>
+                            </div>
+                            <div class="col-12 col-m-6 col-lg-4">
+                                <div class="card">
+                                    <img class="img-fluid rounded" src="./submarine.png" alt="beatles">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </section>
+                            <section class="about green text-white p-5 my-5">
+                                <div class="heading mb-4">
+                                    <h2 class="mt5 text-uppercase text-center">About</h2>
+                                    <div class="row my-4 d-flex justify-content-center align-content-center flex-row">
+                                        <hr class="hr_white">
+                                        <i class="fas fa-star fa-lg fa-fw mx-2"></i>
+                                        <hr class="hr_white">
+                                    </div>
+                                </div>
+                                <div class="container px-5">
+                                    <div class="row g-4">
+                                        <div class="col-12 col-md-6">
+                                            Frelamcer is a free bootstrap theme created by Start Bootstrap. The downloading includes the complete
+                                            source
+                                            files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+                    </div>
+                    <div class="col-12 col-md-6">
+                        Whether you're a student looking to shiwcase your work, a professional looking to attract cliects, or a
+                        graphic artist loooking to share your projects, this template is the perfect staring point!
+                    </div>
+                    </div>
+                    <div class="calltoaction text-center mt-5">
+                        <a class="btn btn-outline-light btn-lg" href="#" role="button">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                    </div>
+                    </section>
+                    <section class="contacts container px-5 mb-5">
+                        <div class="heading mb-4">
+                            <h2 class="mt-5 text-uppercase text-center">Contacts</h2>
+                            <div class="row my-4 d-flex align-content-center justify-content-center flex-row">
+                                <hr class="hr_black">
+                                <i class="fas fa-star fa-lg fa-fw mx-2 fas_black"></i>
+                                <hr class="hr_black">
+                                </div>
+                        </div>
+    <form action="#" class="px-5">
+        <div class="mb-3">
+            <input type="text" name="" id="" class="form-control" placeholder="Name">
         </div>
+    <div class="mb-3">
+        <input type="email" name="" id="" class="form-control" placeholder="Email Address">
+    </div>
+    <div class="mb-3">
+        <input type="phone" name="" id="" class="form-control" placeholder="Phone Number">
+    </div>
+    <div class="mb-3">
+        <textarea class="form-control" name="" id="" rows="3" placeholder="Message"></textarea>
+    </div>
+    <button type="submit" class="btn green text-white">Send</button>
+    </form>
+    </section>
     </main>
     <!-- /.site_main -->
-    <footer class="site_footer">
-        <div class="container-fluid grey ">
-            <div class="row d-flex justify-content-evenly text-center text-white p-5 ">
-                <div class="col-2 ">
-                    <h3>LOCATION</h3>
+    <footer class="site_footer text-white">
+        <div class="container grey">
+            <div class="row gy-4">
+                <div class="col-12 col-md-4 ">
+                    <h4>LOCATION</h4>
                     <P>2215 John Daniel Drive Clak, MO</P>
                     <span>54243</span>
                 </div>
-                <div class="col-2 ">
-                    <h3>AROUND</h3>
-                    <i class="fab fa-facebook-f"></i>
-                    
-                    
-                    <i class="fab fa-google-plus-g"></i>
-                    
-                    
-                    <i class="fab fa-twitter"></i>
-                    
+                <div class="col-12 col-md-4 ">
+                    <h4>AROUND THE WEB</h4>
+                    <div class="social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-google-plus-g"></i>
+                        <i class="fab fa-twitter"></i>
                         <i class="fab fa-linkedin-in"></i>
+                    </div>
                 </div>
-                <div class="col-2 ">
+                <div class="col-12 col-md-4 ">
                     <H3>ABOUT FREELANCER</H3>
                     <P>Freelance is a free to use, open source Bootstrap theme created by <span class="text_green">Start Bootstrap</span>
                     </P>
                 </div>
             </div>
         </div>
-        <div class="container-fluid night">
-            <div class="row d-flex flex-row justify-content-center text-white">
-                <p class="text-center m-1">
-                    Copyright <i class="far fa-copyright"></i> Your Website 2019
-                </p>
-            </div>
+        <div class="footer_bottom mt-4 p-4 night">
+            <p>Copyright <i class="far fa-copyright"></i> Your Website 2019</p>
         </div>
     </footer>
     <!-- /.site_footer -->
